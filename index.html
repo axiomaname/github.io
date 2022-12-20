@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ДЗ2_css.css">
+    <title>Home Work2</title>
+</head>
+<body>
+    <h1>Что такое <b>«HTML»</b></h1>
+    <img src="html.png" alt="картинка html" width="600">
+    <h2>HTML</h2> 
+    <p><b>HTML</b> (Hypertext Markup Language)  - это код, который используется для структурирования и отображения вебстраницы и её контента. 
+       Например, контент (какой-то текст) может быть представлен в виде множества параграфов, маркированных списков или с использованием изображений и таблиц данных.</p>
+    <h2>Элементы HTML</h2>
+    <ul>
+        <li><b>Открывающий (< >) и Закрывающий (< />) тег</b> <br>Открывающий тег указывает, где элемент начинается или начинает действовать, закрывающий тег включает в себя косую черту перед именем элемента. 
+        <br> Закрывающий элемент указывает, где элемент заканчивается.</li> 
+        <li><b>Контент</b> <br>Контент элемента, который в данном случае является просто текстом.</li>
+        <li><b>Элемент</b> Открывающий тег, закрывающий тег и контент вместе составляют элемент.</li>
+        </ul>
+    <h2> Типы <b>HTML</b>-элементов:</h2>
+    <ol>
+        <li><b>Пустые элементы</b>-Элементы HTML без содержимого. Пустые элементы не имеют конечного тега,такого как
+        < br > < area >, < base >, < br >, < col> , <br>< embed >, < hr >, < img >, < input >, < link >,
+        < menuitem >, < meta >, < param >, <br> < source >, < track >, < wbr >; </li>
+         <li><b>Элементы с неформатированным текстом</b>  script, style </li> 
+         <li><b> Элементы, выводящие неформатированный текст</b> < textarea >, < title ;</li>
+         <li><b>Элементы из другого пространства имён </b>MathML и SVG;</li>
+         <li><b>Обычные элементы </b>все остальные элементы.</li>
+    </ol>
+    <h2>Структура HTML</h2>
+    <img src="структура.png" alt="Картинка структура HTML" width="600">
+
+    <p><a href="https://developer.mozilla.org/ru/docs/Web/HTML"> <em><b>Еще больше полезной информации об HTML</b></em></a></p>
+    
+</body>
+</html>
